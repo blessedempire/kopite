@@ -1,0 +1,2 @@
+# kopite
+The main Kop
