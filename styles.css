@@ -32,10 +32,13 @@ nav li a {
 
 article {
     float: left;
+    background-color: rgb(107, 174, 241);
+    width: 50%;
 }
 
 aside {
     float: right;
+    
 }
 
 footer {
