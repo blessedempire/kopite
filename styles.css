@@ -45,14 +45,17 @@ nav li a {
     text-align: center;
 }
 
+a:hover {
+    color: aqua;
+}
+
 article {
     float: left;
     background-color: rgb(107, 174, 241);
-    width: 60%;
+    width: 78%;
     height: 500px;
     margin-right: 20px;
     border-radius: 10px;
-
 }
 
 aside {
@@ -60,18 +63,15 @@ aside {
     width: 20%;
 }
 
-section {
+/* section {
     padding: 12%;
     display: block;
-}
+} */
 
 img {
     height: 500px;
     width: 100%;
     border-radius: 10px;
-    padding-top: 10px;
-
-    /* margin-left: -100%; */
 }
 
 
