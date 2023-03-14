@@ -19,6 +19,7 @@ header {
     background-color: rgb(238, 133, 133);
     padding: 10px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -64,20 +65,21 @@ aside {
 }
 
 section {
-    padding: 25px;
-    padding-right: 40px;
     display: inline-block;
+    padding: 25px;
+    
 }
 
 section ul li {
     list-style: none;
-    margin-bottom: 100%;
+    padding: 10px;
+    margin-bottom: 60px;
 
 }
 
 section ul li a {
     text-decoration: none;
-    margin-top: 20%;
+
 }
 
 /* Media query for smaller section screens */
@@ -116,4 +118,5 @@ footer {
     background-color: rgb(238, 133, 133);
     border-radius: 10px;
     padding: 10px;
+    text-align: center;
 }
