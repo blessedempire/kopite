@@ -65,6 +65,7 @@ aside {
 
 section {
     padding: 25px;
+    padding-right: 40px;
     display: inline-block;
 }
 
@@ -76,6 +77,7 @@ section ul li {
 
 section ul li a {
     text-decoration: none;
+    padding-top: 20%;
 }
 
 /* Media query for smaller section screens */
