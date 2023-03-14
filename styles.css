@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 body {
     background-color:rgba(220, 220, 220, 0.849)
@@ -36,13 +36,14 @@ nav li {
     padding: 18px;
     list-style: none; 
     margin: 10px;
-    
+    border: 4px solid black;
+    border-radius: 16px;    
 }
 
 nav li a {
     text-decoration: none;
     display: block;
-    color: rgb(83, 13, 247);
+    color: rgb(5, 5, 5);
     text-align: center;
 }
 
@@ -79,6 +80,8 @@ section ul li {
 
 section ul li a {
     text-decoration: none;
+    color: black;
+    font-weight: 100;
 
 }
 
