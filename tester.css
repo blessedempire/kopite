@@ -11,7 +11,7 @@ body {
     border-radius: 5px;
     padding: 15px;
     width: 16%;
-    background-color: darkblue;
+    background-color: rgb(23, 23, 187);
 }
 
 .top {
@@ -49,8 +49,10 @@ body {
 
 .great {
     font-weight: bold;
+    color: white;
 }
 
 .next {
     display: block;
+    color: white;
 }
