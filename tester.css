@@ -17,6 +17,7 @@ body {
     border-bottom-right-radius: 35px;
     width: 100%;
     text-align: center;
+    height: auto;
 
 }
 
@@ -77,6 +78,7 @@ body {
 
 .bottom {
     display: flex;
+    padding-top: 12px;
 }
 
 h1 {
@@ -85,4 +87,52 @@ h1 {
     font-size: 20px;
     width: 90px;
 }
+
+section {
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px hidden pink;
+    height: 50px;
+    padding: 2px;
+    margin: 25px;
+    width: 150%;
+}
+
+.reat {
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+}
+
+.mem {
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+}
+
+.ver {
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+}
+
+.vis {
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+}
+
+.style-1 {
+    background-color: hsl(0, 79%, 96%);
+}
+
+.style-2 {
+    background-color: hsl(38, 64%, 89%);
+}
+
+.style-3 {
+    background-color: hsl(166, 62%, 92%);
+}
+
+.style-4 {
+    background-color: hsl(233, 85%, 92%);
+}
+
+
 
