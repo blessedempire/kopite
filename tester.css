@@ -1,36 +1,42 @@
-body {
+/* body {
     background-color: white;
-}
+} */
 
 .container {
+    box-sizing: border-box;
     text-align: center;
     display: flex;
     margin: 0 auto;
-    border: 1px hidden rgb(6, 245, 65);
+    border: 0px hidden rgb(6, 245, 65);
     display: inline-block;
     border-radius: 5px;
-    padding: 15px;
-    width: 16%;
-    background-color: rgb(23, 23, 187);
+    width: 100%;
+    background-color: rgba(112, 30, 245, 0.911);
 }
 
 .top {
-    border: solid 1px blue;
+    border: solid 0px rgba(112, 30, 245, 0.911);
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
     border-radius: 10px;
 }
 
+.first {
+    padding: 20px;
+    color: rgb(239, 246, 252);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 .circle {
-    margin-top: 17px;
     border-radius: 50%;
     border: hidden 3px blue;
     width: 50px;
     height: 50px;
     padding: 25px;
     text-align: center;
-    background-color: rgb(85, 85, 241);
+    background-color: rgba(112, 30, 245, 0.911);
     color: white;
     font-size: 19px;
     display: inline-block;
