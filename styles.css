@@ -131,9 +131,38 @@ footer {
 
 .box {
     box-sizing: border-box;
-    width: 200px;
+    width: 210px;
     border: 10px solid;
     padding: 20px;
     margin: 0 auto;
     text-align: center;
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.one {
+    border: 5px solid black;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.two {
+    border: 5px solid black;
+    padding: 20px;
+    margin: 10px;
+
+
+}
+
+.three {
+    border: 5px solid black;
+    padding: 20px;
+    margin: 10px;
+
+
 }
