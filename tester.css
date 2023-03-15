@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    border: 1px hidden rgb(6, 245, 65);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px;
+    width: 16%;
+    background-color: darkblue;
+}
+
+.top {
+    border: solid 1px blue;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-radius: 10px;
+}
+
+.circle {
+    margin-top: 17px;
+    border-radius: 50%;
+    border: hidden 3px blue;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(85, 85, 241);
+    color: white;
+    font-size: 19px;
+    display: inline-block;
+}
+
+.one {
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.two {
+    font-weight: lighter;
+    display: flex;
+}
+
+.great {
+    font-weight: bold;
+}
+
+.next {
+    display: block;
+}
