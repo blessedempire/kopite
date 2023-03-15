@@ -1,32 +1,31 @@
 body {
     background-color: white;
     font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     box-sizing: border-box;
-    text-align: center;
-    display: flex;
-    margin: 0 auto;
-    border: 0px hidden rgb(6, 245, 65);
     display: inline-block;
-    border-radius: 5px;
-    width: 100%;
-    background-color: rgba(112, 30, 245, 0.911);
+    margin: 0 auto;
 }
 
 .top {
-    border: solid 0px rgba(112, 30, 245, 0.911);
-    border-top: hidden;
-    border-left: hidden;
-    border-right: hidden;
-    border-radius: 10px;
+    background-color: rgba(112, 30, 245, 0.911);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    width: 100%;
+    text-align: center;
+
 }
 
 .first {
     padding: 20px;
     color: rgb(239, 246, 252);
-
+    font-style: normal;
+    font-family: 'Hanken Grotesk', sans-serif;
+    opacity: 0.7;
 }
 
 .circle {
@@ -42,22 +41,36 @@ body {
 }
 
 .one {
-    font-weight: bolder;
-    font-size: 30px;
-    margin: 0 auto;
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
 }
 
+
 .two {
-    font-weight: lighter;
-    display: flex;
+    padding-top: 5px;
+    display: grid;
+    font-size: 13px;
+    opacity: 0.4;
+}
+
+.under {
+    padding: 10px;
+    margin: 20px;
 }
 
 .great {
     font-weight: bold;
+    font-size: 22px;
     color: white;
 }
 
 .next {
+    padding-top: 9px;
     display: block;
     color: white;
+    font-size: 13px;
+    opacity: 0.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
