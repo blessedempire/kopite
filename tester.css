@@ -1,6 +1,7 @@
-/* body {
+body {
     background-color: white;
-} */
+    font-family: 'Hanken Grotesk', sans-serif;
+}
 
 .container {
     box-sizing: border-box;
@@ -25,20 +26,18 @@
 .first {
     padding: 20px;
     color: rgb(239, 246, 252);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 .circle {
     border-radius: 50%;
-    border: hidden 3px blue;
-    width: 50px;
-    height: 50px;
+    border: hidden  blue;
+    width: 55px;
+    height: 60px;
     padding: 25px;
-    text-align: center;
     background-color: rgba(112, 30, 245, 0.911);
     color: white;
-    font-size: 19px;
+    /* font-size: 19px; */
     display: inline-block;
 }
 
