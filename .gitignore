@@ -1,0 +1,20 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.page {
+    background-color: blue;
+    margin: auto;
+    padding: 10px;
+    color: aqua;
+    justify-content: center;
+    gap: 20px;
+} 
+
+<div class="home">
+        <div class="page">
+            <p>HELLO I WANT TO TEST SOMETHING REAL QUICK</p>
+        </div>
+    </div> 
