@@ -7,17 +7,18 @@ body {
 
 .container {
     box-sizing: border-box;
-    display: inline-block;
+    display: flex;
     margin: 0 auto;
+    flex-direction: column;
+    width: 375px;
 }
 
 .top {
-    background-color: rgba(112, 30, 245, 0.911);
+    background-color: hsla(256, 72%, 46%, 1);
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
-    width: 100%;
+    width: 375px;
     text-align: center;
-    height: auto;
 
 }
 
@@ -31,13 +32,11 @@ body {
 
 .circle {
     border-radius: 50%;
-    border: hidden  blue;
     width: 55px;
     height: 60px;
     padding: 25px;
     background-color: rgba(112, 30, 245, 0.911);
     color: white;
-    /* font-size: 19px; */
     display: inline-block;
 }
 
@@ -52,7 +51,7 @@ body {
     padding-top: 5px;
     display: grid;
     font-size: 13px;
-    opacity: 0.4;
+    opacity: 0.5;
 }
 
 .under {
@@ -95,8 +94,9 @@ section {
     height: 50px;
     padding: 2px;
     margin: 25px;
-    width: 150%;
+    width: 18.5rem;
 }
+
 
 .reat {
     color: hsl(0, 100%, 67%);
@@ -134,5 +134,22 @@ section {
     background-color: hsl(233, 85%, 92%);
 }
 
+.home {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
 
+.page {
+    background-color: blue;
+    margin: auto;
+    padding: 10px;
+    color: aqua;
+    justify-content: center;
+    gap: 20px;
+}
 
+.number-1 {
+    float: right;
+    padding: 10px;
+}
