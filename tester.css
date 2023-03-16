@@ -14,7 +14,7 @@ body {
 }
 
 .top {
-    background-color: hsla(256, 72%, 46%, 1);
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
     width: 375px;
@@ -28,6 +28,7 @@ body {
     font-style: normal;
     font-family: 'Hanken Grotesk', sans-serif;
     opacity: 0.7;
+    font-weight: 600;
 }
 
 .circle {
@@ -38,6 +39,8 @@ body {
     background-color: rgba(112, 30, 245, 0.911);
     color: white;
     display: inline-block;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)
+    );
 }
 
 .one {
@@ -134,7 +137,7 @@ section {
     background-color: hsl(233, 85%, 92%);
 }
 
-.home {
+/* .home {
     display: flex;
     flex-direction: row;
     padding: 20px;
@@ -147,9 +150,16 @@ section {
     color: aqua;
     justify-content: center;
     gap: 20px;
+} */
+
+
+
+.color {
+    display: flex;
+    padding: 15px;
 }
 
-.number-1 {
-    float: right;
-    padding: 10px;
+img {
+    padding-right: 10px;
 }
+
