@@ -215,3 +215,20 @@ input[type="button"] {
     border: hidden;
 }
 
+.item1 {
+    border: 2px black solid;
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.item2 {
+    border: 2px black solid;
+    background-color: red;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    z-index: 10;
+}
+
